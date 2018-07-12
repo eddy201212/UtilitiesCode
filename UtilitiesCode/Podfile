@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+target 'UtilitiesCode' do
+
+pod 'Masonry'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'MMDrawerController'
+pod 'PureLayout'
+pod 'TPKeyboardAvoiding'
+pod 'ReactiveCocoa'
+pod 'Realm+JSON'
+pod 'BlocksKit'
+pod 'AFNetworking'
+pod 'SSKeychain'
+pod 'FDFullscreenPopGesture'
+pod 'SDWebImage'
+#pod 'JLRoutes'
+#pod 'JKCategories'
+pod 'YYKit'
+#pod 'YBPopupMenu'
+#pod 'YWFeedbackFMWK'
+pod 'Aspects'
+pod 'RegExCategories', '~> 1.0'
+pod 'MJExtension'
+
+end
