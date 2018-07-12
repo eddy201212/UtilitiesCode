@@ -3,7 +3,7 @@
 //  Utilities
 //
 //  Created by Eddy on 15/11/2.
-//  Copyright © 2015年 Zx. All rights reserved.
+//  Copyright © 2015年 ed. All rights reserved.
 //
 
 #ifndef Macro_h
