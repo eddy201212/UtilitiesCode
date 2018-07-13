@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  Case1ViewController.h
 //  UtilitiesCode
 //
 //  Created by Eddy on 15/5/13.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface Case1ViewController : UIViewController
 
 
 @end
+

@@ -24,7 +24,8 @@
     NSLog(@"I have been injected!");
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.title = @"Utilities";

@@ -1259,15 +1259,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64D3B6D320F74D1B00089D66 /* UtilitiesCode */ = {
+		641E976F20F83A850075D42B /* Masonry示例 */ = {
 			isa = PBXGroup;
 			children = (
-				64D3B6D420F74D1B00089D66 /* AppDelegate.h */,
-				64D3B6D520F74D1B00089D66 /* AppDelegate.m */,
+				64D3B74920F74D1B00089D66 /* MainViewController.h */,
+				64D3B74A20F74D1B00089D66 /* MainViewController.m */,
 				64D3B6D620F74D1B00089D66 /* Autolayout */,
-				64D3B70220F74D1B00089D66 /* LaunchScreen.xib */,
-				64D3B70420F74D1B00089D66 /* Main.storyboard */,
-				64D3B70620F74D1B00089D66 /* BlurEffect */,
 				64D3B70920F74D1B00089D66 /* Case1ViewController.h */,
 				64D3B70A20F74D1B00089D66 /* Case1ViewController.m */,
 				64D3B70B20F74D1B00089D66 /* Case2ViewController.h */,
@@ -1296,23 +1293,19 @@
 				64D3B72220F74D1B00089D66 /* Case8ViewController.m */,
 				64D3B72320F74D1B00089D66 /* Case9ViewController.h */,
 				64D3B72420F74D1B00089D66 /* Case9ViewController.m */,
-				64D3B72520F74D1B00089D66 /* Common */,
+			);
+			path = "Masonry示例";
+			sourceTree = "<group>";
+		};
+		641E977120F83D270075D42B /* 通用代码 */ = {
+			isa = PBXGroup;
+			children = (
 				64D3B72820F74D1B00089D66 /* Debug */,
-				64D3B72B20F74D1B00089D66 /* HomewViewController.h */,
-				64D3B72C20F74D1B00089D66 /* HomewViewController.m */,
-				64D3B72D20F74D1B00089D66 /* Html */,
-				64D3B72F20F74D1B00089D66 /* Images */,
-				64D3B73420F74D1B00089D66 /* Images.xcassets */,
-				64D3B73520F74D1B00089D66 /* Info.plist */,
+				64D3B72520F74D1B00089D66 /* Common */,
+				64D3B70620F74D1B00089D66 /* BlurEffect */,
 				64D3B73620F74D1B00089D66 /* ios原生请求webview显示 */,
 				64D3B73B20F74D1B00089D66 /* JS */,
 				64D3B73E20F74D1B00089D66 /* KeyboardAvoiding */,
-				64D3B74720F74D1B00089D66 /* Macro.h */,
-				64D3B74820F74D1B00089D66 /* main.m */,
-				64D3B74920F74D1B00089D66 /* MainViewController.h */,
-				64D3B74A20F74D1B00089D66 /* MainViewController.m */,
-				64D3B74B20F74D1B00089D66 /* UtilitiesCode-Bridging-Header.h */,
-				64D3B74C20F74D1B00089D66 /* UtilitiesCode.entitlements */,
 				64D3B74D20F74D1B00089D66 /* Model */,
 				64D3B75020F74D1B00089D66 /* MyRootViewController.h */,
 				64D3B75120F74D1B00089D66 /* MyRootViewController.m */,
@@ -1324,7 +1317,6 @@
 				64D3B77320F74D1C00089D66 /* ThirdParty */,
 				64D3B9DB20F74D1D00089D66 /* Tools */,
 				64D3B9FA20F74D1D00089D66 /* UITableView */,
-				64D3BA0820F74D1D00089D66 /* Utilities-prefix.pch */,
 				64D3BA0920F74D1D00089D66 /* 多线程 */,
 				64D3BA1720F74D1D00089D66 /* 系统权限请求 */,
 				64D3BA1A20F74D1D00089D66 /* 网络请求模块 */,
@@ -1332,6 +1324,38 @@
 				64D3BA2620F74D1D00089D66 /* 购物车模块 */,
 				64D3BA4120F74D1D00089D66 /* 转场动画 */,
 				64D3BA6E20F74D1D00089D66 /* 顶部滚播图 */,
+			);
+			path = "通用代码";
+			sourceTree = "<group>";
+		};
+		641E977220F83DDE0075D42B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64D3B74820F74D1B00089D66 /* main.m */,
+				64D3B72D20F74D1B00089D66 /* Html */,
+				64D3B72F20F74D1B00089D66 /* Images */,
+				64D3B70220F74D1B00089D66 /* LaunchScreen.xib */,
+				64D3B70420F74D1B00089D66 /* Main.storyboard */,
+				64D3B73420F74D1B00089D66 /* Images.xcassets */,
+				64D3B73520F74D1B00089D66 /* Info.plist */,
+				64D3B74B20F74D1B00089D66 /* UtilitiesCode-Bridging-Header.h */,
+				64D3B74C20F74D1B00089D66 /* UtilitiesCode.entitlements */,
+				64D3BA0820F74D1D00089D66 /* Utilities-prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64D3B6D320F74D1B00089D66 /* UtilitiesCode */ = {
+			isa = PBXGroup;
+			children = (
+				64D3B6D420F74D1B00089D66 /* AppDelegate.h */,
+				64D3B6D520F74D1B00089D66 /* AppDelegate.m */,
+				64D3B72B20F74D1B00089D66 /* HomewViewController.h */,
+				64D3B72C20F74D1B00089D66 /* HomewViewController.m */,
+				64D3B74720F74D1B00089D66 /* Macro.h */,
+				641E977120F83D270075D42B /* 通用代码 */,
+				641E976F20F83A850075D42B /* Masonry示例 */,
+				641E977220F83DDE0075D42B /* Resources */,
 			);
 			path = UtilitiesCode;
 			sourceTree = "<group>";
@@ -3811,8 +3835,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
 				DEFINES_MODULE = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/UtilitiesCode/Utilities-prefix.pch";
-				INFOPLIST_FILE = UtilitiesCode/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UtilitiesCode/Resources/Utilities-prefix.pch";
+				INFOPLIST_FILE = UtilitiesCode/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.utilies;
@@ -3835,8 +3859,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jinchao Sun (YN624G2X5Z)";
 				DEFINES_MODULE = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/UtilitiesCode/Utilities-prefix.pch";
-				INFOPLIST_FILE = UtilitiesCode/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/UtilitiesCode/Resources/Utilities-prefix.pch";
+				INFOPLIST_FILE = UtilitiesCode/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.utilies;
