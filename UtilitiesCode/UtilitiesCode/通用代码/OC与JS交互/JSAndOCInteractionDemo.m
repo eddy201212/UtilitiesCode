@@ -49,7 +49,7 @@
     if (_webView == nil) {
         _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
         _webView.scalesPageToFit = YES;
-        NSURL *url = [[NSBundle mainBundle] URLForResource:@"test" withExtension:@"html"];
+        NSURL *url = [[NSBundle mainBundle] URLForResource:@"test22" withExtension:@"html"];
         NSURLRequest *request = [NSURLRequest requestWithURL:url];
         [_webView loadRequest:request];
         _webView.delegate = self;
